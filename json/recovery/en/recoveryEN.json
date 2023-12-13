@@ -1,0 +1,42 @@
+{
+    "mainTitle": "How to Restore a Multi-Coin Wallet",
+    "paragraphFirst": {
+        "title": "What is a Recovery Phrase?",
+        "paragraph": "CEM Wallet uses an industry standard for protecting your Private Keys. We are utilizing a 12-word Recovery Phrase for better security and convenience of managing multiple assets. The private key for every coin and token that is supported by the wallet is derived from this Recovery Phrase. As soon as you start creating a wallet, you will be presented by the 12-word Recovery Phrase.",
+        "paragraph2": "When to use this guide:",
+        "content": [
+            {
+                "text": "App has been reinstalled on the device."
+            },
+            {
+                "text": "Wallet has been deleted."
+            },
+            {
+                "text": "Got a new device and trying to restore your wallet."
+            },
+            {
+                "text": "Have same wallet on multiple devices."
+            }
+        ]
+    },
+    "StepOne": {
+        "title": "Step 1 - Launch CEM Wallet",
+        "paragraph": "Open CEM Wallet and then tap on Settings."
+    },
+    "StepTwo": {
+        "title": "Step 2 - Access Wallets",
+        "paragraph": "In the Settings screen, you will find here Wallets. Tap on it to display the wallets that you currently have. Tap on the “+” sign on the upper right to access the Import Screen."
+    },
+    "StepThree": {
+        "title": "Step 3 - Access Wallet Import Screen",
+        "paragraph": "Since we are trying to restore a wallet, select I already have a wallet. Then, tap on Multi-Coin Wallet."
+    },
+    "StepFour": {
+        "title": "Step 4 - Input the Recovery Phrase",
+        "paragraph": "Almost done. Carefully type the recovery phrase, put in the name of the wallet. Tap on Import."
+    },
+    "StepFive": {
+        "title": "Step 5 - Wallet Restore Done",
+        "paragraph": "Hooray, you have recovered your wallet and your funds are safe. Celebrate!"
+    }
+}

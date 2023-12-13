@@ -1,0 +1,73 @@
+{
+    "title": "OUR ADVANTAGES",
+    "advantages": {
+        "content": [
+            {
+                "info": "Easily earn interest on the crypto in your wallet"
+            },
+            {
+                "info": "See your collectibles. Art & NFTs in one place"
+            },
+            {
+                "info": "Exchange your crypto without leaving the app"
+            },
+            {
+                "info": "Keep your crypto safe from hackers & scammers"
+            }
+        ]
+    },
+    "ourSocial": {
+        "title": "OUR SOCIALS",
+        "content": [
+            {
+                "icon": "/contents/socials/ourSocial/telegram_gradient.svg",
+                "link": "https://t.me/emergencycrypto"
+            },
+            {
+                "icon": "/contents/socials/ourSocial/github_gradient.svg",
+                "link": "https://github.com/CryptoEmergency"
+            },
+            {
+                "icon": "/contents/socials/ourSocial/twitter_gradient.svg",
+                "link": "https://twitter.com/cryptoemergency"
+            }
+        ]
+    },
+    "aboutProduct": {
+        "title": "GET STARTED IN 3 SIMPLE STEPS",
+        "content": [
+            {
+                "title": "Download the CEM Wallet",
+                "text": "The wallet is available for mobile devices on IOS and Android"
+            },
+            {
+                "title": "Create a new wallet",
+                "text": "You can easily create a new wallet in our application, or import an existing one"
+            },
+            {
+                "title": "Start receiving or buying cryptocurrencies",
+                "text": "Receive and transfer many coins with our wallet"
+            }
+        ]
+    },
+    "contacts": {
+        "title": "CONTACT US",
+        "content": [
+            {
+                "link": "https://t.me/emergencycrypto",
+                "icon": "/contents/contacts/telegram_white.svg",
+                "info": "t.me/cryptoemergencyblockchainEN"
+            },
+            {
+                "link": "https://t.me/cryptoemergencychat",
+                "icon": "/contents/contacts/telegram_white.svg",
+                "info": "t.me/cryptoemergencyblockchainRU"
+            },
+            {
+                "link": "mailto:global@cryptoemergency.com",
+                "icon": "/contents/contacts/email_white.svg",
+                "info": "global@cryptoemergency.com"
+            }
+        ]
+    }
+}

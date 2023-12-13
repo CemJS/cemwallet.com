@@ -1,0 +1,68 @@
+.privacy_block {
+    background: url("images/background/term_lines.svg");
+    background-repeat: repeat-y;
+    background-position: right -620px top;
+    padding: 1.875rem;
+    padding-top: 0;
+
+    h1 {
+        margin-bottom: 0;
+        font-weight: 800;
+        font-size: clamp(1.8rem, 3.5vw, 4rem);
+        max-width: 653px;
+        line-height: 100.02%;
+    }
+
+    h2 {
+        margin: 0;
+        font-weight: 700;
+        font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+        text-transform: uppercase;
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: clamp(1.2rem, 3.5vw, 1.75rem);
+    }
+    p {
+        font-weight: 400;
+        font-size: clamp(1.1888rem, 3.5vw, 1.200rem);
+    }
+}
+
+.privacy_table_container {
+    border: 1px solid #D9E2EF;
+    margin-bottom: 20px;
+}
+
+.privacy_table_row {
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
+    border-bottom: 1px solid #D9E2EF;
+    padding: 10px;
+
+    div {
+        padding: 10px
+    }
+
+    &:first-child {
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+.terms p {
+    font-weight: 400;
+    font-size: clamp(1rem, 3.5vw, 1.188rem);
+}
+
+.mt {
+    margin-top: 1rem;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,61 @@
+{
+    "service": {
+        "title": "Сервисы",
+        "content": [
+            {
+                "link": "https://crypto-emergency.com",
+                "info": "Crypto Emergency"
+            },
+            {
+                "link": "https://cemscan.com",
+                "info": "CEM Explorer"
+            },
+            {
+                "link": "https://cemwallet.com",
+                "info": "CEM Wallet"
+            },
+            {
+                "link": "https://cemnft.com",
+                "info": "CEM NFT"
+            },
+            {
+                "link": "https://cemswap.com",
+                "info": "CEM Swap"
+            }
+        ]
+    },
+    "community": {
+        "title": "Сообщество",
+        "content": [
+            {
+                "link": "https://github.com/CryptoEmergency",
+                "info": "Github"
+            },
+            {
+                "link": "/#contact",
+                "info": "Контакты"
+            }
+        ]
+    },
+    "about": {
+        "title": "О нас",
+        "content": [
+            {
+                "link": "https://crypto-emergency.com/en/about/",
+                "info": "Команда"
+            },
+            {
+                "link": "/privacy-policy/",
+                "info": "Правила использования"
+            },
+            {
+                "link": "/terms/",
+                "info": "Политика конфиденциальности"
+            },
+            {
+                "link": "/recovery/",
+                "info": "Восстановление кошелька"
+            }
+        ]
+    }
+}

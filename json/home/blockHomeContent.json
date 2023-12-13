@@ -1,0 +1,73 @@
+{
+    "title": "НАШИ ПРЕИМУЩЕСТВА",
+    "advantages": {
+        "content": [
+            {
+                "info": "Зарабатывайте больше криптовалюты"
+            },
+            {
+                "info": "Смотрите свои предметы коллекционирования, искусство и NFT в одном месте"
+            },
+            {
+                "info": "Обменять криптовалюту не выходя из приложения"
+            },
+            {
+                "info": "Берегите свою криптовалюту в безопасности от хакеров и мошенников"
+            }
+        ]
+    },
+    "ourSocial": {
+        "title": "НАШИ СОЦИАЛЬНЫЕ СЕТИ",
+        "content": [
+            {
+                "icon": "/contents/socials/ourSocial/telegram_gradient.svg",
+                "link": "https://t.me/emergencycrypto"
+            },
+            {
+                "icon": "/contents/socials/ourSocial/github_gradient.svg",
+                "link": "https://github.com/CryptoEmergency"
+            },
+            {
+                "icon": "/contents/socials/ourSocial/twitter_gradient.svg",
+                "link": "https://twitter.com/cryptoemergency"
+            }
+        ]
+    },
+    "aboutProduct": {
+        "title": "НАЧНИТЕ ЗА 3 ПРОСТЫХ ШАГА",
+        "content": [
+            {
+                "title": "Загрузите кошелек CEM",
+                "text": "Кошелек доступен для мобильных устройств на IOS и Android"
+            },
+            {
+                "title": "Создайте новый кошелек",
+                "text": "Вы можете легко создать новый кошелёк в нашем приложении, либо импортировать имеющийся"
+            },
+            {
+                "title": "Начните получать или покупать криптовалюты",
+                "text": "Получайте и переводите множество монет с помощью нашего кошелька"
+            }
+        ]
+    },
+    "contacts": {
+        "title": "Контакты",
+        "content": [
+            {
+                "link": "https://t.me/emergencycrypto",
+                "icon": "/contents/contacts/telegram_white.svg",
+                "info": "t.me/cryptoemergencyblockchainEN"
+            },
+            {
+                "link": "https://t.me/cryptoemergencychat",
+                "icon": "/contents/contacts/telegram_white.svg",
+                "info": "t.me/cryptoemergencyblockchainRU"
+            },
+            {
+                "link": "mailto:global@cryptoemergency.com",
+                "icon": "/contents/contacts/email_white.svg",
+                "info": "global@cryptoemergency.com"
+            }
+        ]
+    }
+}
