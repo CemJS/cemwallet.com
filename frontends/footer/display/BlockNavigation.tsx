@@ -39,15 +39,9 @@ export default function () {
         </p>
         <div class={Static.devolopersState ? "blockNavigation_content" : "blockNavigation_content_block"}>
           {lang?.devolopers?.content?.map((item: any) => {
-            if (item?.info === 'Lite Paper') {
-              return (
-                <a class="footer_navigation_a" href={item?.link} target="_blank">{item?.info}</a>
-              );
-            } else {
-              return (
-                <a class="footer_navigation_a" href={item?.link}>{item?.info}</a>
-              );
-            }
+            return (
+              <a class="footer_navigation_a" onclick={Fn.link} href={item?.link}>{item?.info}</a>
+            )
           })}
         </div>
       </div>
@@ -98,7 +92,7 @@ export default function () {
         <div class={Static.explorerState ? "blockNavigation_content" : "blockNavigation_content_block"}>
           {lang?.explorer?.content?.map((item: any) => {
             return (
-              <a class="footer_navigation_a" href={item?.link}>
+              <a class="footer_navigation_a" onclick={Fn.link} href={item?.link}>
                 {item?.info}
               </a>
             )
@@ -116,7 +110,7 @@ export default function () {
         <div class={Static.downAppState ? "blockNavigation_content" : "blockNavigation_content_block"}>
           {lang?.downApp?.content?.map((item: any) => {
             return (
-              <a class="footer_navigation_a" href={item?.link} rel="nofollow noopener">
+              <a class="footer_navigation_a" onclick={Fn.link} href={item?.link} rel="nofollow noopener">
                 <img class="img_down_app" src={item?.image} />
               </a>
             )

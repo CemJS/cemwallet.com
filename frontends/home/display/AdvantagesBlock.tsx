@@ -12,9 +12,7 @@ export default function () {
       <div class="preview_block block_wrapper">
         <div class="preview_block_main">
           <h1>{front.Variable.stateLang == "ru" ? Static?.text : Static?.textEn}</h1>
-          <div>
-            <img src={wallet_banner} />
-          </div>
+            <img class="wheel" src={wallet_banner} />
         </div>
         <p>
           <b>CEM Wallet </b>

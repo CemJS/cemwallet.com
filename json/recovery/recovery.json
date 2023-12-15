@@ -1,42 +1,42 @@
 {
-    "mainTitle": "How to Restore a Multi-Coin Wallet",
+    "mainTitle": "Как восстановить Multi-Coin Wallet",
     "paragraphFirst": {
-        "title": "What is a Recovery Phrase?",
-        "paragraph": "CEM Wallet uses an industry standard for protecting your Private Keys. We are utilizing a 12-word Recovery Phrase for better security and convenience of managing multiple assets. The private key for every coin and token that is supported by the wallet is derived from this Recovery Phrase. As soon as you start creating a wallet, you will be presented by the 12-word Recovery Phrase.",
-        "paragraph2": "When to use this guide:",
+        "title": "Что такое фраза для восстановления?",
+        "paragraph": "CEM Wallet использует отраслевой стандарт для защиты ваших личных ключей. Мы используем фразу для восстановления из 12 слов для повышения безопасности и удобства управления несколькими активами. Закрытый ключ для каждой монеты и токена, поддерживаемых кошельком, получен из этой фразы восстановления. При создании кошелька, вам будет представлена фраза для восстановления из 12 слов.",
+        "paragraph2": "Когда использовать руководство:",
         "content": [
             {
-                "text": "App has been reinstalled on the device."
+                "text": "Приложение было переустановлено на устройство."
             },
             {
-                "text": "Wallet has been deleted."
+                "text": "Кошелек был удален."
             },
             {
-                "text": "Got a new device and trying to restore your wallet."
+                "text": "Восстановление кошелька на новом устройстве"
             },
             {
-                "text": "Have same wallet on multiple devices."
+                "text": "Одинаковый кошелек на нескольких устройствах."
             }
         ]
     },
     "StepOne": {
-        "title": "Step 1 - Launch CEM Wallet",
-        "paragraph": "Open CEM Wallet and then tap on Settings."
+        "title": "Шаг 1 - Запустите CEM Wallet",
+        "paragraph": "Откройте CEM Wallet и перейдите в Настройки."
     },
     "StepTwo": {
-        "title": "Step 2 - Access Wallets",
-        "paragraph": "In the Settings screen, you will find here Wallets. Tap on it to display the wallets that you currently have. Tap on the “+” sign on the upper right to access the Import Screen."
+        "title": "Шаг 2 - Доступ к кошелькам",
+        "paragraph": "На экране настроек вы найдете “Кошельки”. Нажмите на него, чтобы отобразить кошельки, которые у вас есть на данный момент. Нажмите на знак “+” в правом верхнем углу, чтобы перейти к экрану импорта."
     },
     "StepThree": {
-        "title": "Step 3 - Access Wallet Import Screen",
-        "paragraph": "Since we are trying to restore a wallet, select I already have a wallet. Then, tap on Multi-Coin Wallet."
+        "title": "Шаг 3 - Получите доступ к экрану импорта кошелька",
+        "paragraph": "Поскольку мы пытаемся восстановить кошелек, выберите “У меня уже есть кошелек”. Затем нажмите “Кошелек с несколькими монетами”."
     },
     "StepFour": {
-        "title": "Step 4 - Input the Recovery Phrase",
-        "paragraph": "Almost done. Carefully type the recovery phrase, put in the name of the wallet. Tap on Import."
+        "title": "Шаг 4 - Введите фразу восстановления",
+        "paragraph": "Почти готово. Введите фразу для восстановления и название кошелька. Нажмите на Импорт."
     },
     "StepFive": {
-        "title": "Step 5 - Wallet Restore Done",
-        "paragraph": "Hooray, you have recovered your wallet and your funds are safe. Celebrate!"
+        "title": "Шаг 5 - Восстановление кошелька завершено",
+        "paragraph": "Ура, вы вернули свой кошелек, и ваши средства в безопасности. Празднуйте!"
     }
 }

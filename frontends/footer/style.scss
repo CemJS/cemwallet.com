@@ -93,7 +93,7 @@
         height: 2.5rem;
     }
 
-    @media(max-width: 780px) {
+    @media(max-width: 1100px) {
         display: block;
 
         &_content {
@@ -118,7 +118,7 @@
 
 .footer_socials {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     margin-bottom: 0.938rem;
 
     a {
@@ -194,7 +194,7 @@
     }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1100px) {
     .footer_top {
         flex-wrap: wrap;
         justify-content: center;
@@ -218,7 +218,7 @@
 }
 
 
-@media(max-width: 780px) {
+@media(max-width: 1100px) {
 
     .mobileFlex {
         display: flex;

@@ -18,7 +18,9 @@ export default function () {
     <div class="footer_container block_wrapper">
       <div class="footer_top">
         <div class="footer_connect">
-          <img class="imgLogo" src={logo} />
+          <a href="/" onclick={Fn.link}>
+            <img class="imgLogo" src={logo} />
+          </a>
         </div>
         <div class="footer_navigation">
           <BlockNavigation />
@@ -51,7 +53,8 @@ export default function () {
             )
           })}
         </div>
-        <span>Crypto Emergency. All rights reserved © 2022</span>
+
+        <span>Crypto Emergency. All rights reserved © 2023</span>
       </div>
     </div>
 

@@ -41,15 +41,15 @@
         "title": "О нас",
         "content": [
             {
-                "link": "https://crypto-emergency.com/en/about/",
+                "link": "https://crypto-emergency.com/ru/about/",
                 "info": "Команда"
             },
             {
-                "link": "/privacy-policy/",
+                "link": "/terms/",
                 "info": "Правила использования"
             },
             {
-                "link": "/terms/",
+                "link": "/privacy-policy/",
                 "info": "Политика конфиденциальности"
             },
             {

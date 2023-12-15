@@ -18,7 +18,7 @@ export default function () {
         )
       })}
       <div class="privacy_table_container">
-        <div class="privacy_table_row">
+        <div class="privacy_table_row privacy_table_row_header">
           {lang?.table?.rowFirst?.map((item: any) => {
             return (
               <div>
@@ -27,7 +27,7 @@ export default function () {
             )
           })}
         </div>
-        <div class="privacy_table_row">
+        <div class="privacy_table_row privacy_table_row_body">
           {lang?.table?.row?.map((item: any) => {
             return (
               <div>

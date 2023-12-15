@@ -20,7 +20,7 @@ export default function () {
           )
         })}
       </div>
-      <img class="background_plus" src={wallet_icon} />
+        <img class="background_plus" src={wallet_icon} />
     </div>
   )
 }

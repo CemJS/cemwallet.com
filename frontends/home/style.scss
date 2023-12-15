@@ -18,8 +18,30 @@
     &_main {
         display: flex;
 
-        img {
-            max-width: 100%;
+        .wheel {
+            max-width: 100vh;
+            animation: rotate 20s linear infinite;
+
+            @media (max-width: 550px) {
+                width: 50%;
+            }
+
+            @keyframes rotate {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+        }
+
+        @media (max-width: 1100px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
 
@@ -29,7 +51,12 @@
         line-height: 2.188rem;
         max-width: 57.625rem;
         margin-bottom: 2.5rem;
+
+        @media (max-width: 1100px) {
+            text-align: center;
+        }
     }
+
 }
 
 .our_values_block {
@@ -118,7 +145,7 @@
 
 .socialH2 {
     font-weight: 700;
-    font-size: clamp(1.5rem, 3.5vw, 2.35rem);
+    font-size: clamp(1.3rem, 3.5vw, 2.35rem);
     text-transform: uppercase;
 }
 
@@ -147,6 +174,15 @@
         justify-content: center;
         align-items: center;
         position: relative;
+
+        @media (max-width: 400px) {
+            height: 4.188rem;
+            width: 4.188rem;
+
+            img {
+                width: 2.5rem;
+            }
+        }
     }
 }
 
@@ -274,10 +310,18 @@
     @media (max-width: 1700px) {
         height: 300px;
     }
+
+    @media (max-width: 900px) {
+        height: 250px;
+    }
 }
 
 @media (max-width: 900px) {
     .advantages_block {
         background-size: cover;
+
+        .our_values_item {
+            height: 12.5rem;
+        }
     }
 }

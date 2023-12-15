@@ -38,29 +38,12 @@ export default function () {
             </div>
 
             <div class="navigation_item">
-              <span>{lang?.devolopers?.title}</span>
-              <div class="burger_menu_item">
-                {lang?.devolopers?.content?.map((item: any) => {
-                  if (item?.info === 'Lite Paper') {
-                    return (
-                      <a href={item?.link} target="_blank">{item?.info}</a>
-                    )
-                  } else {
-                    return (
-                      <a href={item?.link}>{item?.info}</a>
-                    );
-                  }
-                })}
-              </div>
-            </div>
-
-            <div class="navigation_item">
               <span>{lang?.about?.title}</span>
               <div class="burger_menu_item">
                 {lang?.about?.content?.map((item: any) => {
                   return (
                     <a href={item?.link}
-                      target="_blank">
+                      onclick={Fn.link}>
                       {item?.info}
                     </a>
                   )

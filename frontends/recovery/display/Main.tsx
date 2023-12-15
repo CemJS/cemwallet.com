@@ -4,8 +4,7 @@ import recoveryEN from "@json/recovery/en//recoveryEN"
 
 export default function () {
 
-  // const lang = front.Variable.stateLang === "ru" ? recovery : recoveryEN
-  const lang = recoveryEN
+  const lang = front.Variable.stateLang === "ru" ? recovery : recoveryEN
 
   return (
     <div>
