@@ -23,7 +23,7 @@
             animation: rotate 20s linear infinite;
 
             @media (max-width: 550px) {
-                width: 50%;
+                width: 70%;
             }
 
             @keyframes rotate {
@@ -272,6 +272,10 @@
             align-items: center;
 
             span {
+                text-align: center;
+            }
+
+            p {
                 text-align: center;
             }
         }

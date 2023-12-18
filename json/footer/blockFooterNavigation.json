@@ -20,14 +20,6 @@
         "title": "Разработчикам",
         "content": [
             {
-                "link": "/api/",
-                "info": "API info"
-            },
-            {
-                "link": "assets/docs/LitePaperRu.pdf",
-                "info": "Lite Paper"
-            },
-            {
                 "link": "https://github.com/CryptoEmergency",
                 "info": "Github"
             }
@@ -37,20 +29,20 @@
         "title": "О нас",
         "content": [
             {
-                "link": "https://crypto-emergency.com",
+                "link": "https://crypto-emergency.com/ru/about/",
                 "info": "Команда"
             },
             {
-                "link": "/roadmap/",
-                "info": "Дорожная карта"
-            },
-            {
-                "link": "/ru/#tokenomics",
-                "info": "Токеномика"
-            },
-            {
                 "link": "/terms/",
-                "info": "Политика приватности"
+                "info": "Правила использования"
+            },
+            {
+                "link": "/privacy-policy/",
+                "info": "Политика конфиденциальности"
+            },
+            {
+                "link": "/recovery/",
+                "info": "Восстановление кошелька"
             }
         ]
     },
