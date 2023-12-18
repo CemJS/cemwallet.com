@@ -1,7 +1,7 @@
 .privacy_block {
     background: url("images/background/term_lines.svg");
     background-repeat: repeat-y;
-    background-position: right -620px top;
+    background-position: right -38.75rem top;
     // padding: 1.875rem;
     padding-top: 0;
 
@@ -9,7 +9,7 @@
         margin-bottom: 0;
         font-weight: 800;
         font-size: clamp(1.8rem, 3.5vw, 4rem);
-        max-width: 653px;
+        max-width: 40.813rem;
         line-height: 100.02%;
     }
 
@@ -36,17 +36,17 @@
 
 .privacy_table_container {
     border: 1px solid #D9E2EF;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     max-width: 100%;
     // overflow-x: hidden;
 
-    @media(max-width: 800px) {
+    @media(max-width: 900px) {
         margin-left: 1%;
         overflow-x: scroll;
         width: 90vw;
 
         .privacy_table_row {
-            width: 1000px;
+            width: 75rem;
         }
     }
 }
@@ -54,8 +54,8 @@
 .privacy_table_row {
     display: grid;
     grid-template-columns: 20% 20% 30% 30%;
-    border-bottom: 1px solid #D9E2EF;
-    padding: 10px;
+    border-bottom: 0.625rem solid #3b3c3d;
+    padding: 0.625rem;
 
     &_header {
         background-color: #80808033;
@@ -66,21 +66,21 @@
     }
 
     div {
-        padding: 10px;
-        border-right: 1px solid #3b3c3d;
+        padding: 0.625rem;
+        border-right: 0.625rem solid #3b3c3d;
 
         &:nth-child(4) {
             border-right: 0
         }
 
         &:last-child {
-            border-right: 0
+            border-right: 0;
         }
     }
 
     &:first-child {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
