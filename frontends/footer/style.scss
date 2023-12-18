@@ -58,10 +58,10 @@
         color: inherit;
         margin-bottom: 0.25rem;
         display: block;
-
         &:hover {
             text-decoration: underline;
         }
+        
     }
 
     .footer_p {
@@ -78,7 +78,9 @@
         }
     }
 }
-
+.a_servNoWrap {
+    text-wrap: nowrap;
+}
 
 /*******************************************************/
 .blockNavigation {

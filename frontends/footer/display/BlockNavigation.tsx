@@ -56,7 +56,7 @@ export default function () {
         <div class={Static.servicesState ? "blockNavigation_content" : "blockNavigation_content_block"}>
           {lang?.services?.content?.map((item: any) => {
             return (
-              <a class="footer_navigation_a" href={item?.link} onclick={Fn.link}>
+              <a class="footer_navigation_a a_servNoWrap" href={item?.link} onclick={Fn.link}>
                 {item?.info}
               </a>
             )
