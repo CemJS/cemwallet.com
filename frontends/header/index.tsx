@@ -13,6 +13,7 @@ front.func.test = () => {
 
 front.loader = () => {
     front.Variable.stateModal = false
+
     if (localStorage.getItem('langState') == null) {
         front.Variable.stateLang = "ru"
     } else {

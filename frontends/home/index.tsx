@@ -2,7 +2,7 @@ import { Cemjsx, front, Func, Static, Fn, Ref } from "cemjs-all"
 import Navigation from "./navigation"
 
 front.listener.finish = () => {
-    console.log(Ref.home)
+    // console.log(Ref.home)
     return
 }
 

@@ -11,8 +11,7 @@ $border: rgba(150, 150, 150, 0.5);
 .block_wrapper {
     max-width: 78.5rem;
     margin: 0 auto;
-    padding-left: 0.938rem;
-    padding-right: 0.938rem;
+    padding: 0 3%;
 }
 
 p {
@@ -33,4 +32,8 @@ img {
     background: linear-gradient(180deg, #FE0083 0%, #7725C8 100%);
     position: relative;
     top: -2px;
+}
+
+.overflowHidden {
+    overflow: hidden;
 }

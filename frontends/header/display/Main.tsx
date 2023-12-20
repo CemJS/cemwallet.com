@@ -20,6 +20,7 @@ export default function () {
           src={burger_menu}
           onclick={() => {
             front.Variable.stateModal = true
+            this.Variable.$el.body.style.overflow = 'hidden'
             Fn.initAll()
           }} />
         <div class="navigation_menu">

@@ -4,6 +4,7 @@ import language_icon from '@svg/language_icon.svg'
 import blockHeaderNavigation from "@json/header/blockHeaderNavigation"
 import blockHeaderNavigationEN from "@json/header/en/blockHeaderNavigationEN"
 
+
 export default function () {
 
   const lang = front.Variable.stateLang === "ru" ? blockHeaderNavigation : blockHeaderNavigationEN
@@ -12,6 +13,7 @@ export default function () {
     <div
       onclick={() => {
         front.Variable.stateModal = false
+        this.Variable.$el.body.style.overflow = 'auto'
         Fn.initAll()
       }}
       class={!front.Variable.stateModal ? "closeModal" : "modal"} id="burgerMenu">
