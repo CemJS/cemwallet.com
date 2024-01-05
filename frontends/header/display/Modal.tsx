@@ -16,7 +16,7 @@ export default function () {
         this.Variable.$el.body.style.overflow = 'auto'
         Fn.initAll()
       }}
-      class={!front.Variable.stateModal ? "closeModal" : "modal"} id="burgerMenu">
+      class={!front.Variable.stateModal ? "modal modal_close" : "modal"} id="burgerMenu">
       <div class="modal_dialog">
         <div class="modal_content">
           <div class="modal_header">
