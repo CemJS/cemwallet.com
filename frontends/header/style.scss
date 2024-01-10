@@ -101,7 +101,7 @@ header .block_wrapper {
 
     span {
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.35rem;
         cursor: pointer;
     }
 }
@@ -126,7 +126,7 @@ header .block_wrapper {
 
 .modal {
     position: fixed;
-    top: 4.688rem;
+    top: 0;
     left: 0;
     z-index: 1055;
     display: block;
@@ -165,9 +165,9 @@ header .block_wrapper {
     }
 
     &_close {
-       left: -100%;
-    //    top: -100%;
-    //    opacity: 0;
+        left: -100%;
+        //    top: -100%;
+        //    opacity: 0;
     }
 
     @keyframes show-in {
@@ -245,11 +245,12 @@ header .block_wrapper {
     a {
         font-style: normal;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.1rem;
         cursor: pointer;
         text-decoration: none;
+        max-width: 165px;
         color: inherit;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.3rem;
     }
 }
 
