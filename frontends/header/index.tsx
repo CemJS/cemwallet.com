@@ -15,7 +15,7 @@ front.loader = () => {
     front.Variable.stateModal = false
 
     if (localStorage.getItem('langState') == null) {
-        front.Variable.stateLang = "ru"
+        front.Variable.stateLang = "en"
     } else {
         front.Variable.stateLang = localStorage.getItem('langState')
     }
